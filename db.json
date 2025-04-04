@@ -1,0 +1,212 @@
+
+{
+  "products": [
+    {
+      "id": 1,
+      "category": "milk",
+      "productName": "Bottled Milk",
+      "description": "500ml bottle pack",
+      "price": "30",
+      "image": "../src/images/dairies/milk.jpg", 
+      "aspectRatio":"9:16", 
+      "nutritionalValue": "rich in calcium. good for bones"
+    },
+    {
+      "id": 2,
+      "category": "milk",
+      "productName": "Milk Bottles",
+      "description": "3 x 500ml bottle pack",
+      "price": "110",
+      "image": "../src/images/dairies/milk_bottles.jpg",
+      "aspectRatio":"16:9", 
+      "nutritionalValue": "rich in calcium. good for bones"
+    },
+    {
+      "id": 3,
+      "category": "milk",
+      "productName": "Milk Tetra Pack",
+      "description": "1 litre bottle pack",
+      "price": "100",
+      "image": "../src/images/dairies/milk-tetra.jpg",
+      "aspectRatio":"9:16", 
+      "nutritionalValue": "rich in calcium. good for bones"
+    },
+    {
+      "id": 4,
+      "category": "butter",
+      "productName": "Salted Butter",
+      "description": "100gm packet",
+      "price": "50",
+      "image": "../src/images/dairies/butter.jpg",
+      "aspectRatio":"16:9", 
+      "nutritionalValue": "rich in sodium and calcium. good for joints"
+    },
+    {
+      "id": 5,
+      "category": "Buttermilk",
+      "productName": "Plain Buttermilk",
+      "description": "500ml pack",
+      "price": "20",
+      "image": "../src/images/dairies/buttermilk.jpg",
+      "aspectRatio":"16:9", 
+      "nutritionalValue": "rich in calcium. low calories. improves metabolism"
+    },
+    {
+      "id": 6,
+      "category": "cheese",
+      "productName": "Cheese Cubes",
+      "description": "pack of 6 cubes",
+      "price": "80",
+      "image": "../src/images/dairies/cheese_cubes.jpg",
+      "aspectRatio":"16:9", 
+      "nutritionalValue": "rich in protien, high calorific, energy booster"
+    },
+    {
+      "id": 7,
+      "category": "cheese",
+      "productName": "Cheese Slice",
+      "description": "pack of 5 slices",
+      "price": "60",
+      "image": "../src/images/dairies/cheese_sliced.jpg",
+      "aspectRatio":"16:9", 
+      "nutritionalValue": "rich in protien, high calorific, energy booster"
+    },
+    {
+      "id": 8,
+      "category": "cheese",
+      "productName": "Cheese Spread",
+      "description": "200gm pack",
+      "price": "500",
+      "image": "../src/images/dairies/cheese_spread.jpg",
+      "aspectRatio":"16:9", 
+      "nutritionalValue": "rich in protien, high calorific, energy booster"
+    },
+    {
+      "id": 9,
+      "category": "milk",
+      "productName": "Cow Milk",
+      "description": "500ml bottle pack",
+      "price": "32",
+      "image": "../src/images/dairies/cow_milk.jpg",
+      "aspectRatio":"9:16", 
+      "nutritionalValue": "rich in calcium. good for bones, lowers bad cholesterol"
+    },
+    {
+      "id": 10,
+      "category": "milk",
+      "productName": "Cow Milk Tetra Pack",
+      "description": "1 litre tetra pack",
+      "price": "60",
+      "image": "../src/images/dairies/cow_milk_tetra_pack.jpg",
+      "aspectRatio":"9:16", 
+      "nutritionalValue": "rich in calcium. good for bones, lowers bad cholesterol"
+    },
+    {
+      "id": 11,
+      "category": "curd",
+      "productName": "Plain Curd",
+      "description": "500gm pack",
+      "price": "25",
+      "image": "../src/images/dairies/curd.jpg",
+      "aspectRatio":"16:9", 
+      "nutritionalValue": "rich in calcium. good for bones. improves metabolism"
+    },
+    {
+      "id": 12,
+      "category": "cream",
+      "productName": "Fresh Cream",
+      "description": "500gm pack",
+      "price": "200",
+      "image": "../src/images/dairies/fresh_cream.jpg",
+      "aspectRatio":"16:9", 
+      "nutritionalValue": "rich in protein and calcium. good for bones"
+    },
+    {
+      "id": 13,
+      "category": "yogurt",
+      "productName": "Fruit Yogurt",
+      "description": "500gm pack",
+      "price": "60",
+      "image": "../src/images/dairies/fruit_yogurt.jpg",
+      "aspectRatio":"16:9", 
+      "nutritionalValue": "high fibre, high protein, rich in calcium"
+    },
+    {
+      "id": 14,
+      "category": "ghee",
+      "productName": "Cow Ghee",
+      "description": "250gm pack",
+      "price": "100",
+      "image": "../src/images/dairies/ghee.jpg",
+      "aspectRatio":"16:9", 
+      "nutritionalValue": "rich in calcium, protein."
+    },
+    {
+      "id": 15,
+      "category": "yogurt",
+      "productName": "Healthy Yogurt",
+      "description": "200gm pack",
+      "price": "500",
+      "image": "../src/images/dairies/healthy_yogurt.jpg",
+      "aspectRatio":"9:16", 
+      "nutritionalValue": "rich in calcium"
+    },
+    {
+      "id": 16,
+      "category": "butter",
+      "productName": "White Butter",
+      "description": "200gm pack",
+      "price": "100",
+      "image": "../src/images/dairies/home_made_white_butter_.jpg",
+      "aspectRatio":"16:9", 
+      "nutritionalValue": "rich in calcium. good for bones, lowers bad cholesterol"
+    },
+    {
+      "id": 17,
+      "category": "paneer",
+      "productName": "Paneer - Cottage Cheese",
+      "description": "200gm pack",
+      "price": "100",
+      "image": "../src/images/dairies/paneer.jpg",
+      "aspectRatio":"16:9", 
+      "nutritionalValue": "rich in protein, calcium. increases good cholesterol"
+    },
+    {
+      "id": 18,
+      "category": "butter",
+      "productName": "Peanut Butter",
+      "description": "250gm pack",
+      "price": "200",
+      "image": "../src/images/dairies/peanut_butter.jpg",
+      "aspectRatio":"16:9", 
+      "nutritionalValue": "rich in protein, good for hair and eyes"
+    },
+    {
+      "id": 19,
+      "category": "yogurt",
+      "productName": "Plain Yogurt - Sweet",
+      "description": "150gm pack",
+      "price": "30",
+      "image": "../src/images/dairies/plain_yogurt.jpg",
+      "aspectRatio":"16:9", 
+      "nutritionalValue": "rich in calcium, fiber and proteins"
+    }
+  ],
+  "orders": [
+    {
+      "firstName": "James",
+      "address": "A-1704, Ekta Bhumi Garden 3 Off Dattapada Road,",
+      "productName": "Plain Buttermilk",
+      "city": "Mumbai",
+      "contact": "9920998416",
+      "deliveryDate": "2024-03-07T06:02:20.367Z",
+      "email": "james.mathew@stackroute.in",
+      "lastName": "Mathew",
+      "postalCode": "40006",
+      "quantity": 1,
+      "state": "Maharashtra",
+      "middleName": "Mihir",
+      "id": 1
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "users": [
+    {
+      "id": "2",
+      "UserName": "Vimal",
+      "Email": "vinuva122@gmail.com",
+      "Password": "Vinuva(63).",
+      "ConfirmPassword": "Vinuva(63).",
+      "PhoneNumber": "8248921313",
+      "DeliveryDate": "2024-12-28",
+      "Address": "Sivakasi",
+      "City": "sivakasi",
+      "State": "tamilnadu",
+      "ZipCode": "852369",
+      "cart": [
+        {
+          "id": "2",
+          "category": "milk",
+          "productName": "Milk Bottles",
+          "description": "3 x 500ml bottle pack",
+          "price": "110",
+          "image": "../src/images/dairies/milk_bottles.jpg",
+          "aspectRatio": "16:9",
+          "nutritionalValue": "rich in calcium. good for bones",
+          "quantity": 2
+        },
+        {
+          "id": "5",
+          "category": "Buttermilk",
+          "productName": "Plain Buttermilk",
+          "description": "500ml pack",
+          "price": "20",
+          "image": "../src/images/dairies/buttermilk.jpg",
+          "aspectRatio": "16:9",
+          "nutritionalValue": "rich in calcium. low calories. improves metabolism",
+          "quantity": 1
+        }
+      ],
+      "total": 240
+    },
+    {
+      "id": "3",
+      "UserName": "Vimal",
+      "Email": "vimalananthb@gmail.com",
+      "Password": "Vinuva(63!).",
+      "ConfirmPassword": "Vinuva(63!).",
+      "PhoneNumber": "8248921313",
+      "DeliveryDate": "2025-02-20",
+      "Address": "2/1199, Devangar Nagar, Viswanatham , Sivakasi",
+      "City": "Sivakasi",
+      "State": "Tamil Nadu",
+      "ZipCode": "626189",
+      "cart": [
+        {
+          "id": "2",
+          "category": "milk",
+          "productName": "Milk Bottles",
+          "description": "3 x 500ml bottle pack",
+          "price": "110",
+          "image": "../src/images/dairies/milk_bottles.jpg",
+          "aspectRatio": "16:9",
+          "nutritionalValue": "rich in calcium. good for bones",
+          "quantity": 1
+        },
+        {
+          "id": "3",
+          "category": "milk",
+          "productName": "Milk Tetra Pack",
+          "description": "1 litre bottle pack",
+          "price": "100",
+          "image": "../src/images/dairies/milk-tetra.jpg",
+          "aspectRatio": "9:16",
+          "nutritionalValue": "rich in calcium. good for bones",
+          "quantity": 1
+        }
+      ],
+      "total": 210
+    },
+    {
+      "id": "4",
+      "UserName": "Vinu",
+      "Email": "vinuvimal122@gmail.com",
+      "Password": "Vinu(123).",
+      "ConfirmPassword": "Vinu(123).",
+      "PhoneNumber": "8248921313",
+      "DeliveryDate": "2025-03-26",
+      "Address": "2/1199, Devangar Nagar, Viswanatham , Sivakasi",
+      "City": "Sivakasi",
+      "State": "Tamil Nadu",
+      "ZipCode": "626189",
+      "cart": [
+        {
+          "id": "2",
+          "category": "milk",
+          "productName": "Milk Bottles",
+          "description": "3 x 500ml bottle pack",
+          "price": "110",
+          "image": "../src/images/dairies/milk_bottles.jpg",
+          "aspectRatio": "16:9",
+          "nutritionalValue": "rich in calcium. good for bones",
+          "quantity": 1
+        },
+        {
+          "id": "1",
+          "category": "milk",
+          "productName": "Bottled Milk",
+          "description": "500ml bottle pack",
+          "price": "30",
+          "image": "../src/images/dairies/milk.jpg",
+          "aspectRatio": "9:16",
+          "nutritionalValue": "rich in calcium. good for bones",
+          "quantity": 1
+        }
+      ],
+      "total": 140
+    }
+  ]
+}

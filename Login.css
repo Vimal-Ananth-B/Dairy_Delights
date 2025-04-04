@@ -1,0 +1,259 @@
+/* Original login styles
+
+.background {
+    background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+    width: 100%;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Loginheading {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #ff6f61;
+    text-align: center;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.MuiTypography-root {
+    color: #5e5c5c;
+    font-weight: 400;
+}
+
+.MuiTextField-root {
+    width: 300px;
+    font-size: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.MuiInput-root:before {
+    border-bottom: none;
+}
+
+.MuiInput-root:after {
+    border-bottom: 2px solid #ff6f61;
+}
+
+.MuiButton-contained {
+    background: linear-gradient(135deg, #ff6f61, #ff6f61);
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.MuiButton-contained:hover {
+    background: linear-gradient(135deg, #ff8a65, #ff8a65);
+    transform: scale(1.05);
+}
+
+a {
+    text-decoration: none;
+    color: #ff6f61;
+    font-weight: 600;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #ff3d00;
+    text-decoration: underline;
+}
+
+/* Styling for the image */
+/* img {
+    border-radius: 20px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Disable hover effect on images inside the login page */
+/* .login-page img:hover {
+    transform: none !important;
+    transition: none !important;
+}
+
+.text-muted {
+    color: #7e7e7e;
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+.MuiTypography-root, .MuiTextField-root, .MuiButton-contained {
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .background {
+        padding: 20px;
+    }
+
+    .MuiTextField-root {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Loginheading {
+        font-size: 2rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+} */ 
+
+
+/* Parent container for scoping */
+.login-page {
+    /* Background for the login page */
+    background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+    width: 100%;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Heading styles for login page */
+.login-page .Loginheading {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #ff6f61;
+    text-align: center;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Typography styles scoped to login page */
+.login-page .MuiTypography-root {
+    color: #5e5c5c;
+    font-weight: 400;
+}
+
+/* TextField styles scoped to login page */
+.login-page .MuiTextField-root {
+    width: 300px;
+    font-size: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom input styles */
+.login-page .MuiInput-root:before {
+    border-bottom: none;
+}
+
+.login-page .MuiInput-root:after {
+    border-bottom: 2px solid #ff6f61;
+}
+
+/* Button styles scoped to login page */
+.login-page .MuiButton-contained {
+    background: linear-gradient(135deg, #ff6f61, #ff6f61);
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Hover effect for buttons */
+.login-page .MuiButton-contained:hover {
+    background: linear-gradient(135deg, #ff8a65, green);
+    transform: scale(1.05);
+}
+
+/* Anchor link styles scoped to login page */
+.login-page a {
+    text-decoration: none;
+    color: #ff6f61;
+    font-weight: 600;
+    transition: color 0.3s ease-in-out;
+}
+
+.login-page a:hover {
+    color: #ff3d00;
+    text-decoration: underline;
+}
+
+/* Styling for the image */
+.login-page img {
+    border-radius: 20px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Disable hover effect on images inside the login page */
+.login-page img:hover {
+    transform: none !important;
+    transition: none !important;
+}
+
+/* Text-muted style scoped */
+.login-page .text-muted {
+    color: #7e7e7e;
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+/* Animations scoped to login page */
+.login-page .MuiTypography-root, 
+.login-page .MuiTextField-root, 
+.login-page .MuiButton-contained {
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Keyframes for fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+    .login-page {
+        padding: 20px;
+    }
+
+    .login-page .MuiTextField-root {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .login-page .Loginheading {
+        font-size: 2rem;
+        text-align: center;
+    }
+}
+
